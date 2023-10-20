@@ -317,3 +317,19 @@ button:focus {
 .support a:hover {
   transform: scale(1.1);
 }
+.button a{
+  text-decoration: none;
+  font-size: 1rem;
+  color: #ffffff;
+  position:fixed;
+  top: 85%;
+  align-items: center;
+}
+@media screen and (max-width:574px){
+  .greetings{
+      display: block;
+      font-size: 3rem;
+      font-weight: 500;
+      text-align: center;
+  }
+}
